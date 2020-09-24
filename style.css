@@ -6,6 +6,7 @@ body {
 header {
     color: whitesmoke;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
 section {
@@ -30,4 +31,5 @@ footer {
     color: whitesmoke;
     text-align: center;
     font-style: italic;
+    text-shadow: 2px 2px black;
 }
