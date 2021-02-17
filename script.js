@@ -8,7 +8,7 @@ function carregar() {
         msg.innerHTML = `Bom dia, agora são ${hora} horas.`
         img.src = './img/fotoamanhecer.png' // Bom dia
         document.body.style.background = '#f7f381'
-    } else if (hora > 12 && hora <18) {
+    } else if (hora >= 12 && hora <18) {
         msg.innerHTML = `Boa tarde, agora são ${hora} horas.`
         img.src = './img/fototarde.png' //Boa Tarde
         document.body.style.background = '#FDA240'
